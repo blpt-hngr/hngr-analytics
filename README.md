@@ -16,7 +16,7 @@ Javascript Component
 To include our vanilla javascript library you can just load the minified JS file from our CDN. Put the following script tag in your header
 
 ```
-<script src="https://cdn.hngr.co/hngr.latest.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.hngr.co/js/hngr.latest.min.js" crossorigin="anonymous"></script>
 ```
 
 And then, somewhere in your code, preferably near the script set your token like this:
