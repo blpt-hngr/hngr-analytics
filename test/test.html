@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+  <head>
+    <title>This is the title of the webpage!</title>
+
+  </head>
+  <body>
+    <p>Hey this is index.html</p>
+
+    <a href='test.html'>this is a link</a>
+
+    <a href='http://www.asdf.com'>this is an outbound link</a>
+
+    <a href='test.html?someparam=12934&otherparams=honeybooboo&id=18'>another link with params</a>
+
+    <a href='#boo'>internal link</a>
+
+    <a onClick='alert("hi")'>non html link<a/>
+
+    <a></a>
+
+    <a href='asdf' no-utm>link with NEVER a UTM</a>
+
+  <script src="../vanilla_js/hngr_analytics.js"></script>
+  <script>
+    window.hngr.setKey('KEY')
+    window.hngr.send('WEB', 'CONVERSION', {'email': 'asdf@asdf.com'})
+  </script>
+  </body>
+</html>
+
