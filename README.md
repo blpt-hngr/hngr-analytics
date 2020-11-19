@@ -17,13 +17,12 @@ To include our vanilla javascript library you can just load the minified JS file
 
 ```
 <script src="https://cdn.hngr.co/hngr.latest.min.js" crossorigin="anonymous"></script>
-
 ```
 
 And then, somewhere in your code, preferably near the script set your token like this:
 ```
   <script>
-    window.hngr.setKey('KEY')
+    window.hngr.setToken('TOKEN')
   </script>
 ```
 

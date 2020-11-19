@@ -24,7 +24,7 @@ function getUrlParams(url) {
   return params;
 }
 
-async function setKey(key='UNKNOWN') {
+async function setToken(key='UNKNOWN') {
   window.hngr.key = key
 }
 
