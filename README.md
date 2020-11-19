@@ -1,5 +1,5 @@
 HNGR ANALYTICS
-![hngr Logo](cookie.png)
+![hngr Logo](cookie.png|width=200)
 
 hngr pixel
 =================
