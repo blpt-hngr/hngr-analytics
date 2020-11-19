@@ -4,7 +4,7 @@
 */
 
 function getUrlParam(p) {
-  const param_dict = getUrlParams()
+  const param_dict = getUrlParams();
   if (param_dict && param_dict[p]) {
     return param_dict[p]
   }
